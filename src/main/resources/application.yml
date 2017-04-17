@@ -1,0 +1,7 @@
+---
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.ReplicationDriver
+    url: jdbc:mysql://localhost/ronabank
+    username: ronabank
+    password: ronabank

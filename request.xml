@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+				  xmlns:gs="http://ronalag.com/ronabank/webservice/financialcalculators">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gs:getMonthlyPaymentRequest>
+         <gs:amortization>24</gs:amortization>
+         <gs:downPayment>5000.0</gs:downPayment>
+         <gs:interestRate>2.5</gs:interestRate>
+         <gs:purchasePrice>100000.0</gs:purchasePrice>
+      </gs:getMonthlyPaymentRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
