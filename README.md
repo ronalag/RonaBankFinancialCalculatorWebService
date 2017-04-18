@@ -5,7 +5,7 @@ A SOAP web service component of the Rona Bank SOA application. It contains an se
 
 * JDK 1.8
 * Maven 3.0+
-* Service Registry application such as Eureka Server
+* Service Registry application such as [Eureka Server](https://github.com/Netflix/eureka/wiki/Eureka-at-a-glance). You can learn more about setting a server by looking at this [guide](https://spring.io/guides/gs/service-registration-and-discovery/) on [Spring Cloud Netflix](https://cloud.spring.io/spring-cloud-netflix/).
 
 ## How to build and run the application
 
