@@ -1,5 +1,7 @@
 ---
 spring:
+  application:
+    name: calculator-webservice
   datasource:
     driverClassName: com.mysql.jdbc.ReplicationDriver
     url: jdbc:mysql://localhost/ronabank
