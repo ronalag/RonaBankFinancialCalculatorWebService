@@ -25,6 +25,12 @@ public class FinancialCalculatorEndpoint {
 
 	private static final int RESULT_PRECISION = 2;
 	
+	/**
+	 * Calculates the monthly mortgage payment bassed on the request.
+	 * 
+	 * @param request Input containing all the information required.
+	 * @return A response containing the calculated result.
+	 */
 	@PayloadRoot(namespace = Common.NAMESPACE_URI, localPart = GET_MONTHLY_PAYMENT_REQUEST_PATH)
 	@ResponsePayload
 	public GetMonthlyPaymentResponse getCountry(@RequestPayload GetMonthlyPaymentRequest request) {
